@@ -1,0 +1,57 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainDiv{
+    margin: 5vh 10vw 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainDiv h1{
+    text-align: center;
+}
+
+#popupDiv{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    background-color: aliceblue;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#enterButton{
+    height: 10vh;
+    width: 45vw;
+    color: white;
+    background-color: rgb(87, 120, 136);
+    border: 5px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+/** Desktop Look **/
+
+@media (min-width: 500px){
+    #enterButton{
+        height: 75px;
+        width: 250px;
+        border: 7px solid white;
+        font-size: 18px;
+    }
+
+    #mainDiv{
+        margin: 5vh 15vw 10vh 15vw;
+    }
+}
