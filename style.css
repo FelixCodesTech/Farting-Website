@@ -49,6 +49,11 @@
         width: 250px;
         border: 7px solid white;
         font-size: 18px;
+        transition: all 0.5s;
+    }
+
+    #enterButton:hover{
+        transform: scale(1.1, 1.1);
     }
 
     #mainDiv{
